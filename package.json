@@ -5,33 +5,36 @@
   "main": "dist/app",
   "scripts": {
     "start": "tsc && node dist/server.js",
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/tests/**/*.ts' --config .mocharc.js",
+    "test": "npx jest",
     "build": "tsc -p .",
     "lint": "eslint src/**/*.ts --fix"
   },
   "author": "Kasun Dharmawardena",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/blend": "^2.0.1",
     "axios": "^0.27.2",
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "minimist": "^1.2.7",
     "reflect-metadata": "^0.1.13",
-    "typedi": "^0.10.0",
-    "@mapbox/blend": "^2.0.1",
-    "minimist": "^1.2.7"
+    "typedi": "^0.10.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
     "@types/express": "^4.17.13",
+    "@types/jest": "^29.2.3",
+    "@types/minimist": "^1.2.2",
     "@types/node": "^17.0.34",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "eslint": "^8.15.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.4",
-    "@types/minimist": "^1.2.2"
+    "typescript": "^4.6.4"
   },
   "lint-staged": {
     "*.ts": [
