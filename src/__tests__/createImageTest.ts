@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import {ImageModule} from "../controllers/controllers.module";
-import {describe, expect} from "@jest/globals";
+import {describe, test, expect} from "@jest/globals";
 
 describe("Blend Test", () => {
   test("Create success image return true", async () => {
