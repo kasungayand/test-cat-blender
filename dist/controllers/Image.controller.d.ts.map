@@ -1,0 +1,1 @@
+{"version":3,"file":"Image.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/Image.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,mBAAmB,CAAC;AAEnD,OAAO,EAAE,wBAAwB,EAAE,MAAM,eAAe,CAAC;AACzD,OAAO,EAAE,eAAe,EAAE,MAAM,wBAAwB,CAAC;AAGzD,qBACa,eAAgB,SAAQ,cAAe,YAAW,wBAAwB;;IAK/E,UAAU,IAAI,OAAO,CAAC,eAAe,CAAC;CAY7C"}

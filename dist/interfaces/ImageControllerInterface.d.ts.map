@@ -1,0 +1,1 @@
+{"version":3,"file":"ImageControllerInterface.d.ts","sourceRoot":"","sources":["../../src/interfaces/ImageControllerInterface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,YAAY,CAAC;AAE7C,UAAU,wBAAwB;IAC9B,UAAU,IAAI,OAAO,CAAC,eAAe,CAAC,CAAA;CACzC;AAED,eAAe,wBAAwB,CAAC"}

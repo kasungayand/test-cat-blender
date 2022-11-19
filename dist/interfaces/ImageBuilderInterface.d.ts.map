@@ -1,0 +1,1 @@
+{"version":3,"file":"ImageBuilderInterface.d.ts","sourceRoot":"","sources":["../../src/interfaces/ImageBuilderInterface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,uBAAuB,CAAC;AAEjE,UAAU,qBAAqB;IAC3B,WAAW,IAAI,OAAO,CAAC,IAAI,CAAC,CAAA;IAC5B,UAAU,IAAI,OAAO,CAAC,wBAAwB,CAAC,CAAA;CAClD;AAED,eAAe,qBAAqB,CAAC"}
